@@ -18,8 +18,7 @@ if (isset($_POST['submit']))
 		$connection = new PDO($dsn, $username, $password, $options);
 
 		$sql = "SELECT * 
-						FROM users
-						WHERE location = :location";
+						FROM users;
 
 		$location = $_POST['location'];
 
