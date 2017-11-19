@@ -54,6 +54,7 @@ if (isset($_POST['submit']))
 					<th>Email Address</th>
 					<th>Age</th>
 					<th>Location</th>
+					<th>Linux distro</th>
 					<th>Date</th>
 				</tr>
 			</thead>
@@ -68,6 +69,7 @@ if (isset($_POST['submit']))
 				<td><?php echo escape($row["email"]); ?></td>
 				<td><?php echo escape($row["age"]); ?></td>
 				<td><?php echo escape($row["location"]); ?></td>
+				<td><?php echo escape($row["linuxdistro"]); ?></td>
 				<td><?php echo escape($row["date"]); ?> </td>
 			</tr>
 		<?php 
