@@ -9,5 +9,6 @@ CREATE TABLE users (
 	email VARCHAR(50) NOT NULL,
 	age INT(3),
 	location VARCHAR(50),
+	linuxdistro varchar(50),
 	date TIMESTAMP
 );
