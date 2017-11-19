@@ -22,7 +22,8 @@ if (isset($_POST['submit']))
 			"lastname"  => $_POST['lastname'],
 			"email"     => $_POST['email'],
 			"age"       => $_POST['age'],
-			"location"  => $_POST['location']
+			"location"  => $_POST['location'],
+			"linuxdistro" => $_POST['linuxdistro']
 		);
 
 		$sql = sprintf(
@@ -66,6 +67,8 @@ if (isset($_POST['submit']) && $statement)
 	<input type="text" name="age" id="age">
 	<label for="location">Location</label>
 	<input type="text" name="location" id="location">
+	<label for="linuxdistro">Linux distro</label>
+	<input type="text" name="linuxdistro" id="linuxdistro">
 	<input type="submit" name="submit" value="Submit">
 </form>
 
