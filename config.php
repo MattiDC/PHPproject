@@ -5,7 +5,7 @@
  *
  */
 
-$host       = "http://mysql";
+$host       = "10.5.0.6";
 $username   = "root";
 $password   = "root";
 $dbname     = "docker";
